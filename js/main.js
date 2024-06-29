@@ -2,10 +2,10 @@
 
     function signo () {
         let nombre = (prompt('Ingrese su nombre')) .toLocaleUpperCase()
-        let mes = parseInt(prompt('Ingrese el numero de mes correspondiente a su nacimiento'))
+        let mes = parseInt(prompt('Ingrese el numero del mes correspondiente a su nacimiento'))
         let dia = parseInt(prompt('Ingrese el numero del dia de su nacimiento'))
         let signoZodiacal = (mes,dia)
-        
+
         if (isNaN(mes)|| isNaN(dia)|| dia<1 || dia>31){
             alert('Al introducir el mes y dia de su nacimiento, ingrese unicamente valores numericos validos')
         } 
